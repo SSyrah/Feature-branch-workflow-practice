@@ -1,7 +1,8 @@
-## Feature-branch-workflow-practice
+# Feature-branch-workflow-practice
 
 Available GIT tips for taking in progress:
 
+```
 1. config
 2. remote
 3. status, add, commit
@@ -17,3 +18,8 @@ Available GIT tips for taking in progress:
 13. stash
 14. blame
 15. rebase
+
+```
+---
+
+
