@@ -1,0 +1,19 @@
+## git reflog
+
+-- Reflog allows you to go back to commits even though they are not referenced by any branch or tag. 
+-- contains information about the old state of branches and allows you to go back to that state if necessary.
+-- reflog entries have an expiration date. The default expiration time for reflog entries is 90 days.
+-- provides a safety net if changes have been committed to your local repository and that it only tracks movements of the repositories branch tip. 
+
+git reflog
+- displays the reflog for the local repository
+
+git reflog --relative-date
+- This shows the reflog with relative date information (e.g. 2 weeks ago)
+
+git reflog show --all
+- get a complete reflog of all refs 
+
+git reflog show [branchname]
+- how a reflog for the specific branch.
+

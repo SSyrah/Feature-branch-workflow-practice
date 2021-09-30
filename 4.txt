@@ -1,0 +1,39 @@
+## Git log
+
+-- shows a list of all the commits made to a repository. You can see the hash of each Git commit, the message associated with each commit, and more metadata. This command is useful for displaying the history of a repository.
+
+Filter by Most Recent:
+
+git log -n [3]
+-- This command returns a list of the three most recent commits made to a repository.
+
+Filter by Author or Committer:
+
+git log --author="John Smith"
+git log --committer="John smith"
+-- author flag limits the results to commits whose changes were made by John Smith. The committer flag limits the results to the commits that were actually committed by that individual.
+
+Filter by Date:
+
+git log --after="2019-3-2"
+-- retrieve a list of commits from after 2019-3-2
+
+git log --before="yesterday"
+-- retrieve a list of commits from before yesterday
+
+git log --after="2019-3-2" --before="2019-3-19"
+-- retrieve a list of commits that were published after 2019-3-2 and before 2019-3-19. 
+
+Filter by File:
+
+git log -- [filename]
+
+Filter by Content:
+
+git log -S"# Introduction"
+-- search for all commits that have added the term “# Introduction” to our code
+
+Filter by Message_
+
+git log --grep="feat:"
+-- return a list of all commits whose name starts with “feat:”
