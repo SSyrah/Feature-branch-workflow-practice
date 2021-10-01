@@ -1,0 +1,20 @@
+## git pull / git fetch
+
+-- git fetch downloads content from a remote repository
+-- git pull runs git fetch then git merge
+
+git fetch
+- downloads the content without merging
+
+git pull <remote>
+- downloads content from remote
+- same as git fetch <remote> + git merge /origin <remote>
+
+git pull --no-commit <remote>
+- downloads remote without commiting
+
+git pull --rebase <remote>
+- uses git rebase instead of merge
+
+git pull --verbose
+- displays the content and merge details

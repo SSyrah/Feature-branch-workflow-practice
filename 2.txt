@@ -1,0 +1,18 @@
+## git remote
+
+-- create, view and delete connections to other repositories
+
+git remote
+- show connections to other repositories
+
+git remote -v
+- show connections with urls
+
+git remote add <name> <url>
+- adds remote repo with shortcut
+
+git remote rm <name>
+- removes connection to repo
+
+git remote rename <old name> <new name>
+- renames shortcut to remote repository

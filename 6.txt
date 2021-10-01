@@ -1,0 +1,16 @@
+## git push
+
+-- moves changes made to a local repository to a remote repository
+
+git push <remote> <branch>
+- uploads local content and creates a branch
+
+git push --force
+- forces upload
+- not recommended
+
+git push <remote> --all
+- pushes all branches to a remote repo
+
+git push <remote> --tags
+- pushes content with tags
