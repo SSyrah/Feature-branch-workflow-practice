@@ -15,8 +15,8 @@ Available GIT tips for taking in progress:
 10. tag
 11. amend
 12. reflog  <--- Juhis, DONE
-13. stash   <--- Juhis, IN PROGRESS
-14. blame <-- Juhis, IN PROGRESS
+13. stash   <--- Juhis, DONE
+14. blame <-- Juhis, DONE
 15. rebase  <-- Juhis, IN PROGRESS 
 
 ```
