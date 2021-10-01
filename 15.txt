@@ -1,0 +1,17 @@
+## git rebase
+
+-- one of two Git utilities that specializes in integrating changes from one branch onto another.
+-- It has powerful history rewriting features
+
+git rebase <base>
+-- Git rebase in standard mode will automatically take the commits in your current working branch and apply them to the head of the passed branch.
+
+git rebase --interactive <base>
+-- begins an interactive rebasing session. Instead of blindly moving all of the commits to the new base, interactive rebasing gives you the opportunity to alter individual commits in the process. 
+-- This lets you clean up history by removing, splitting, and altering an existing series of commits. It's like Git commit --amend on steroids.
+
+git rebase --abort
+-- undo the git rebase 
+
+https://git-scm.com/docs/git-rebase
+
