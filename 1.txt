@@ -1,0 +1,22 @@
+## git config
+
+-- set git configuration values
+-- modify configuration text file
+-- customizing git: colours, text editors
+
+git config --local
+- git config writes on local level by default
+- on the current repository
+
+git config --global
+- user specific
+
+git config --system
+- all users on a system
+- all repos
+
+git config --global user.name "Name"
+- sets username
+
+git config --global user.email "Email"
+- sets email
