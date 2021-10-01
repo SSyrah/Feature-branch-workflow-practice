@@ -1,0 +1,19 @@
+## git stash
+
+-- takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy
+-- you're free to make changes, create new commits, switch branches, and perform any other Git operations; then come back and re-apply your stash when you're ready.
+-- Note that the stash is local to your Git repository; stashes are not transferred to the server when you push.
+
+git stash pop
+-- removes the changes from your stash and reapplies them to your working copy
+
+git stash apply
+--  you can reapply the changes to your working copy and keep them in your stash
+
+git stash -u (or --include-untracked)
+-- also stash your untracked files
+
+git stash  -a (or -all)
+-- include changes to ignored files
+
+
