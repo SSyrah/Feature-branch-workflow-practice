@@ -3,12 +3,12 @@
 Available GIT tips for taking in progress:
 
 ```
-1. config <--- Peeta, IN PROGRESS
-2. remote
-3. status, add, commit
+1. config <--- Peeta, DONE
+2. remote <--- Peeta, DONE
+3. status, add, commit <--- Peeta, DONE
 4. log   <--- Juhis, DONE
-5. pull, fetch
-6. push
+5. pull, fetch <--- Peeta, DONE
+6. push <--- Peeta, DONE
 7. branch
 8. merge fast-forward
 9. merge 3-way
