@@ -3,7 +3,7 @@
 Available GIT tips for taking in progress:
 
 ```
-1. config
+1. config <--- Peeta, IN PROGRESS
 2. remote
 3. status, add, commit
 4. log   <--- Juhis, DONE
