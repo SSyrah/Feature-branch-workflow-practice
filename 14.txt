@@ -1,0 +1,19 @@
+## git blame
+
+-- is used to examine the contents of a file line by line and see when each line was last modified and who the author of the modifications was.
+
+git blame -L 1,5 README.md
+-- restrict the output to the requested line range. Here we have restricted the output to lines 1 through 5
+
+git blame -e README.md
+-- The -e option shows the authors email address instead of username.
+
+git blame -w README.md
+-- ignores whitespace changes
+
+git blame -M README.md
+-- detects moved or copied lines within in the same file. This will report the original author of the lines instead of the last author that moved or copied the lines
+
+git blame -C README.md
+-- etects lines that were moved or copied from other files. This will report the original author of the lines instead of the last author that moved or copied the lines
+
