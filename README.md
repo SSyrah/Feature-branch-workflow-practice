@@ -17,7 +17,7 @@ Available GIT tips for taking in progress:
 12. reflog  <--- Juhis, DONE
 13. stash   <--- Juhis, DONE
 14. blame <-- Juhis, DONE
-15. rebase  <-- Juhis, IN PROGRESS 
+15. rebase  <-- Juhis, DONE
 
 ```
 ---
