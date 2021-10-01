@@ -1,0 +1,18 @@
+## git status / git add / git commit
+
+-- basic commands used to save the work done in a repository
+
+git status
+- displays current state of repository: staged, unstaged and untracked files
+
+git add <file>
+- moves the changes made to a file to staging
+
+git add .
+- moves all changed files to staging
+
+git commit
+- takes a snapshot of the current state of repo for staging
+
+git commit -m "Text"
+- adds a commit with explanation
