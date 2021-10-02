@@ -12,8 +12,8 @@ Available GIT tips for taking in progress:
 7. branch <--- Juho, DONE
 8. merge fast-forward <--- Juho, DONE
 9. merge 3-way <--- Juho, IN PROGRESS
-10. tag
-11. amend
+10. tag <--- Juho, DONE
+11. amend <--- Juho, IN PROGRESS
 12. reflog  <--- Juhis, DONE
 13. stash   <--- Juhis, DONE
 14. blame <-- Juhis, DONE
