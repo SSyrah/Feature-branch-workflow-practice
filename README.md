@@ -10,8 +10,8 @@ Available GIT tips for taking in progress:
 5. pull, fetch <--- Peeta, DONE
 6. push <--- Peeta, DONE
 7. branch <--- Juho, DONE
-8. merge fast-forward <--- Juho, IN PROGRESS
-9. merge 3-way
+8. merge fast-forward <--- Juho, DONE
+9. merge 3-way <--- Juho, IN PROGRESS
 10. tag
 11. amend
 12. reflog  <--- Juhis, DONE
