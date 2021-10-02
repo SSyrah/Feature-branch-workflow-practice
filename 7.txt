@@ -1,0 +1,30 @@
+## git branch
+-- Used to manage and edit branches
+-- Capital letters instead of non-capital indicate force
+
+##Commands
+
+git branch <branch>
+-- to create new branch
+
+git checkout <branch>
+-- to move between branches
+
+git branch -a
+-- Used to list branches
+
+git branch -m [<oldbranch>] <newbranch>
+--Used to move and rename branches
+
+git branch -c [<oldbranch>] <newbranch>
+-- Used to copy branches and corresponding reflog
+
+git branch --u origin/[<branch>]
+-- used to set upstream reference
+
+git branch --unset-upstream [<branchname>]
+--Remove current upstream information for <branchname>
+--If the name isn't given it defaults to current branch
+
+git branch -d
+-- used to delete branches
